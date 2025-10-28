@@ -1,55 +1,55 @@
-# Action Identifier
+Here’s your revised project description with the name changed from Akash to Sai Spandana:
 
-#### Action Identifier: Empowering the Needed
+***
 
-Action Identifier System is a powerful tool designed to automate the analysis of hand signs using LSTM Layers.
+## Gesture Sense — Empowering the Needed
 
-![](Images/action_identifier_pipeline.png)
+Gesture Sense is an intelligent system designed to automate the analysis of hand gestures using advanced LSTM-based deep learning networks.
 
-## Interactive Action Detection
-Our platform offers an interactive action detection experience. It captures video frames, processes them to extract keypoints, and uses a trained LSTM model to identify specific actions.
+![](Images/action_identifier_pipeline Gesture Detection
 
-![](Images/image.png)
+The platform offers an interactive detection experience where it captures video frames in real time, processes them to extract keypoints, and utilizes a trained LSTM model to recognize specific gestures.
 
-### Key Features
+![](# Key Features
+
 #### Data Collection
-The data collection process involves capturing video frames using OpenCV and processing them through MediaPipe to extract keypoints. This data is then stored for further processing.
+Gesture Sense collects video frames via OpenCV and processes them using MediaPipe to extract relevant keypoints. These keypoints are then stored for further analysis and model training.
 
 #### Preprocessing
-Before training the model, the keypoints data is normalized, split into training and validation sets, and converted into sequences suitable for LSTM input.
+Before training, the data undergoes normalization, sequence formation, and splitting into training and validation sets, ensuring clean and consistent inputs for the LSTM model.
 
 #### Model Building and Training
-A Sequential model with LSTM and Dense layers is created using TensorFlow. The model is then compiled with appropriate loss function and optimizer and trained on the collected data. TensorBoard is used for monitoring the training process.
+Using TensorFlow, a Sequential model integrating LSTM and Dense layers is constructed. The model is compiled with an appropriate loss function and optimizer, then trained on the preprocessed dataset. Training progress and metrics are monitored through TensorBoard.
 
 #### Evaluation and Prediction
-The model is evaluated using metrics such as multilabel confusion matrix and accuracy score from scikit-learn. Once trained, the model can make predictions on new data to identify actions in real-time.
+Model performance is evaluated using metrics such as multilabel confusion matrix and accuracy score from scikit-learn. Once trained, Gesture Sense can predict gestures in real time with impressive precision.
 
-### Try it out
+### Try It Out
 
-Make sure to have git installed: https://git-scm.com/
+Make sure you have git installed: [https://git-scm.com/](https://git-scm.com/)
 
 ```
-git clone https://github.com/Swam244/Action_Identified.git
+git clone [https://github.com/Swam244/Action_Identified.git](https://github.com/Swam244/Action_Identified.git)
 ```
-Now run
+
+Then run:
 ```
-cd Action_Identifier
-pip install –r requirements.txt
+cd Gesture_Sense
+pip install -r requirements.txt
 ```
 
 ### Technology Stack
 
-__Tensorflow__: TensorFlow is used for building and training the Sequential model with LSTM and Dense layers.
+**TensorFlow:** Used for building and training the Sequential model with LSTM and Dense layers.  
+**OpenCV:** Handles video capture and frame processing for keypoint extraction.  
+**MediaPipe:** Provides holistic models for detecting poses, hands, and facial features, enabling efficient keypoints extraction.
 
-__Open CV__: OpenCV is utilized for capturing video frames and processing images to extract keypoints.
+***
 
-__MediaPipe__: MediaPipe provides the holistic model for pose, face, and hand detection, enabling efficient keypoints extraction.
+## My Motivation — Sai Spandana
 
+One of the projects I’m most proud of is Gesture Sense, which helped me win a hackathon hosted by Saras AI. The inspiration came from seeing posters featuring hand signs for the International Day of Sign Languages. While there are many language-learning apps like Duolingo, I realized there were very few accessible tools for learning sign language. This thought coincided with our hackathon ideation phase and ultimately shaped the core concept of our project.
 
-# My motivation - Akash
+My team of five brainstormed several ideas, but the one I proposed—an intelligent gesture recognition system—stood out. Our biggest challenge was accurately identifying and classifying gestures in motion. Having prior experience with OpenCV but limited knowledge of video-based models, I took the initiative to explore Recurrent Neural Networks (RNNs) and Gated Architectures.
 
-One of the projects I'm really proud of is, Action Recogntion System which helped me win a hackathon hosted by Saras AI. The motive of my project came when we saw posters with handsigns depicting International Day of Sign Languages. When me and few of my friends came across a campaign for it, we weren't able to get anything of it. Usually for languages, we could learn form one of many apps like Duolingo but I could not recall any similar apps for Sign Languages. This concided with our hackathon ideation dates as well which led me to ponder more on this. I along with 4 others, came up with various ideas but the one I had stood out the most. We then delved more into what technologies we could use and what exactly are we making a solution for. All this came down to one major challenge, identifying and classifying what a specific movement/sign is. While I had initial experience in OpenCV, I have not worked with much video modals. This led me to explore RNNs and Gated Networks in depth.
-
-We only had a day left for giving a MVP of our solution and we already tried making basic MVP using RNN that was giving way less accuracy and was not capturing what we wanted at all. To fight this I explored Gated Networks which fought of "vanishing" and "'exploding" gradients which I assumed to be the problem.
-
-With fast prototyping we were able to come up with a quick hackathon winning solution on which I worked with the structuring of my network, from using RNNs to LSTMs at a fast pace while my teamates worked on creating dataset ie videos, testing mediapipe's holistics and proccessing the data before sending it as inputs to my network. I was the team lead as well as the AI engineer in my team which I am really proud of.
+When our initial RNN-based prototype produced poor accuracy, I pivoted toward Long Short-Term Memory (LSTM) networks to address the vanishing and exploding gradient issues. With rapid iteration, we successfully built a functional MVP just in time. I led the team as both AI engineer and project lead, structuring the neural network while my teammates created datasets, tested MediaPipe’s holistic solutions, and processed input data. The result was a winning hackathon solution that we were all deeply proud of.
