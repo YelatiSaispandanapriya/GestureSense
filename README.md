@@ -48,7 +48,7 @@ pip install -r requirements.txt
 
 ## My Motivation — Sai Spandana
 
-One of the projects I’m most proud of is Gesture Sense, which helped me win a hackathon hosted by Saras AI. The inspiration came from seeing posters featuring hand signs for the International Day of Sign Languages. While there are many language-learning apps like Duolingo, I realized there were very few accessible tools for learning sign language. This thought coincided with our hackathon ideation phase and ultimately shaped the core concept of our project.
+One of the projects I’m most proud of is Gesture Sense. The inspiration came from seeing posters featuring hand signs for the International Day of Sign Languages. While there are many language-learning apps like Duolingo, I realized there were very few accessible tools for learning sign language. This thought coincided with our hackathon ideation phase and ultimately shaped the core concept of our project.
 
 My team of five brainstormed several ideas, but the one I proposed—an intelligent gesture recognition system—stood out. Our biggest challenge was accurately identifying and classifying gestures in motion. Having prior experience with OpenCV but limited knowledge of video-based models, I took the initiative to explore Recurrent Neural Networks (RNNs) and Gated Architectures.
 
