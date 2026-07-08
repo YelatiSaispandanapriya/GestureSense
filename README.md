@@ -3,7 +3,7 @@ Here’s your revised project description with the name changed from Akash to Sa
 ***
 
 ## Gesture Sense — Empowering the Needed
-
+Author-Spandana
 Gesture Sense is an intelligent system designed to automate the analysis of hand gestures using advanced LSTM-based deep learning networks.
 
 Author-
