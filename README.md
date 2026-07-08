@@ -6,6 +6,7 @@ Here’s your revised project description with the name changed from Akash to Sa
 
 Gesture Sense is an intelligent system designed to automate the analysis of hand gestures using advanced LSTM-based deep learning networks.
 
+Author-
 ![](Images/action_identifier_pipeline Gesture Detection
 
 The platform offers an interactive detection experience where it captures video frames in real time, processes them to extract keypoints, and utilizes a trained LSTM model to recognize specific gestures.
