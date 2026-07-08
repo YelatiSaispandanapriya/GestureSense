@@ -6,12 +6,12 @@ Here’s your revised project description with the name changed from Akash to Sa
 Author-Spandana
 Gesture Sense is an intelligent system designed to automate the analysis of hand gestures using advanced LSTM-based deep learning networks.
 
-Author-
-![](Images/action_identifier_pipeline Gesture Detection
+
+Images/action_identifier_pipeline Gesture Detection
 
 The platform offers an interactive detection experience where it captures video frames in real time, processes them to extract keypoints, and utilizes a trained LSTM model to recognize specific gestures.
 
-![](# Key Features
+# Key Features
 
 #### Data Collection
 Gesture Sense collects video frames via OpenCV and processes them using MediaPipe to extract relevant keypoints. These keypoints are then stored for further analysis and model training.
